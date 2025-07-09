@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid CSS</title>
+  <style>
+body{
+margin: 0;
+padding: 0;
+}
+
+.cabecalho{
+text-align: center;
+width: 100%;
+height: 100px;
+margin-top: 0;
+padding-top: 0;
+background-color: lightcoral;
+}
+
+
+img{
+width: 160px;
+height: 100px;
+float: left;
+}
+
+.limpar{
+clear: both;
+}
+
+.tabela{
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 3%; 
+font-size: 20px;
+}
+
+th, td{
+width: 200px;
+}
+
+ </style>
+</head>
+<body>
+ 
+<div class='cabecalho'> 
+	<img src='logo.jpeg'>
+	<h1>PENDENCIAS - ANA CAROLINA </h1>
+</div>
+<div class='limpar'> </div>
+
+<div class='tabela'>
+<table border='1'>
+<tr>
+	<th> DATA </th>
+	<th> NOME CLIENTE </th>
+	<th>TIPO DE PENDENCIA </th>
+	<th> QUANTIDADE / DESCRIÇÃO </th>
+	<th> SITUAÇÃO </th>
+</tr>
+<tr>
+	<td> 13/06/2025 </td>
+	<td> PARQUE BELO MARE </td>
+	<td> PEÇAS OFICINA </td>
+	<td> 03 MANG DE AP </td>
+	<td style='color:red'> Aguardando Faturamento </td>
+
+</tr>
+
+<tr>
+	<td> 09/06/2025 </td>
+	<td> GRANDE ORIENTE </td>
+	<td> PEÇAS OFICINA </td>
+	<td> 02 VALVULAS CO2 E 09 SIFÃO </td>
+	<td style='color:red'> Aguardando Faturamento </td>
+</tr>
+
+<tr>
+	<td> 09/06/2025 </td>
+	<td> PARKSHOPPING </td>
+	<td> NOTA FISCAL - JULHO </td>
+	<td> 01 FATURAMENTO MENSAL </td>
+	<td style='color:red'> Aguardando Faturamento </td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>
